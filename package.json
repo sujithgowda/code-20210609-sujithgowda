@@ -1,0 +1,19 @@
+{
+  "name": "bmi-parser",
+  "version": "1.0.0",
+  "description": "bmi parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index"
+  },
+  "author": "sujith kumar",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.1.0",
+    "stream-json": "^1.7.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
