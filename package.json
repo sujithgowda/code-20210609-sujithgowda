@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node index"
+    "start": "node index",
+    "build": "npm install --prod && xcopy node_modules publish\\node_modules /i /c /e /r /y && xcopy * publish"
   },
   "author": "sujith kumar",
   "license": "ISC",
-  "dependencies": {
-    "rxjs": "^7.1.0",
+  "dependencies": {   
     "stream-json": "^1.7.1"
   },
   "devDependencies": {
